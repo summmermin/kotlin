@@ -1,0 +1,14 @@
+리소스 폴더
+- res
+    - drawable : 이미지 리소스
+    - layout : UI 구성에 필요한 XML 리소스
+    - minimap : 앱 아이콘 이미지
+    - values : 문자열 등의 값으로 이용되는 리소스
+-  리소스 식별
+    - int 형 변수가 R.java 파일에 등록
+    - res/layout/test.xml 파일이라면 R.layout.test 라고 이용
+- 파일 규칙
+    - res 하위 폴더명은 지정된 폴더명 사용
+    - 각 리소스 폴더 아래에 하위 폴더 생성X
+    - 자바 이름 규칙 벗어나면 X
+    - 파일명에 대문자 이용 X
