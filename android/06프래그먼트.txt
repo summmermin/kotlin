@@ -1,0 +1,16 @@
+프래그먼트
+
+- 액티비티 안에 종속되어야 함
+- 액티비티 생명주기에 영향을 받지만, 고유의 생명주기가 존재
+- 액티비티가 실행 중일 때 프래그먼트를 추가하거나 제거할 수 있음
+
+
+<프래그먼트의 생명주기>
+프래그먼트 시작
+onAttach() 프래그먼트가 액티비티에 더해지고 나서 실행되는 함수
+onCreateView() view 를 생성할때 view 반환
+onAcitivityCreated() 액티비티 생성 이후에
+실행중
+onDestoryView() 뷰 리소스 해제<---> onCreateView()
+onDetach() <---> onAttach() 
+프래그먼트 종료
